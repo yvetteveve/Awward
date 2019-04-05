@@ -1,0 +1,49 @@
+{% extends 'all-aww/base.html' %}
+{% load bootstrap3 %}
+{% load static %}
+{% block content %}
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <boby>
+    
+        <div class="container" id="index"   >
+            <div class="row" >         
+                <h1 class="text-center">'WELCOME TO AWWARDS LITE'</h1>   
+                {% for proj in proj%}
+        
+                <div class="col-md-3" id="im"> 
+                    <p>Name:{{proj.project_name}}</p>
+                    <img src="{{sap.url}}" alt="image">
+                    <p>Post-Date:{{proj.posted_on}}</p>
+                    <p>By {{proj.user}}</p>
+                </div> 
+                {%endfor%}
+
+
+            </div>
+        </div>
+    </boby>
+</html>
+
+{% endblock %} {% block scripts%} {{block.super}}
+<style>
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: red;
+      color: white;
+      text-align: center;
+    }
+</style>
+    
+<div class="footer">
+    <p>Footer</p>
+</div>
+
+
+{% endblock %}

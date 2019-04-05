@@ -1,4 +1,4 @@
-## INSTAGRAM APP
+## Awwards
 ### INTRODUCTION
 Instagram is a app where users can post pics, comment, like and follow their friends, March 28th, 2019.
 
@@ -24,7 +24,7 @@ python virtualenv
 django==1.11
 bootsrap
 Clone the Repo
-Run the following command on the terminal: git clone https://github.com/yvetteveve/instagram.git
+Run the following command on the terminal: git clone https://github.com/yvetteveve/awward.git
 type cd instagram on terminal
 Known bugs
 No bugs but in case of encounter contact me.
