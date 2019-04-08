@@ -10,7 +10,7 @@ from django.contrib.auth.models import User
 def welcome(request):
     proj=Project.objects.all()
   
-    
+    print(proj)
     return render(request, 'index.html',{'proj':proj})
 @login_required(login_url='/accounts/login/')
 def prof(request):

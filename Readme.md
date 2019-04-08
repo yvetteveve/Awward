@@ -24,7 +24,7 @@ python virtualenv
 django==1.11
 bootsrap
 Clone the Repo
-Run the following command on the terminal: git clone https://github.com/yvetteveve/awward.git
+Run the following command on the terminal: git clone https://github.com/yvetteveve/Awward.git
 type cd instagram on terminal
 Known bugs
 No bugs but in case of encounter contact me.

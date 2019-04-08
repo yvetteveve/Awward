@@ -11,12 +11,12 @@
     
         <div class="container" id="index"   >
             <div class="row" >         
-                <h1 class="text-center">'WELCOME TO AWWARDS LITE'</h1>   
+                <h1 class="text-center">'WELCOME TO AWWARDS LITE'</h1> 
                 {% for proj in proj%}
         
-                <div class="col-md-3" id="im"> 
+                <div class="col-md-6" id="im"> 
                     <p>Name:{{proj.project_name}}</p>
-                    <img src="{{sap.url}}" alt="image">
+                    <img src="{{proj.image.url}}" alt="image">
                     <p>Post-Date:{{proj.posted_on}}</p>
                     <p>By {{proj.user}}</p>
                 </div> 
@@ -35,8 +35,8 @@
       left: 0;
       bottom: 0;
       width: 100%;
-      background-color: red;
-      color: white;
+      background-color:rgb(198, 229, 186);
+      color: black;
       text-align: center;
     }
 </style>
